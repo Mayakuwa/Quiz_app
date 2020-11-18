@@ -12,6 +12,8 @@
         <!-- 縦方向に固定-->
         <activity android:name=".MainActivity"
             android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustResize"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
