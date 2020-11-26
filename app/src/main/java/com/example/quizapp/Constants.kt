@@ -25,7 +25,7 @@ object Constants{
             "Australia",
             "America",
             "New Zealand",
-            1
+            2
         )
 
         questionsList.add(que2)
@@ -38,7 +38,7 @@ object Constants{
             "Chad",
             "België",
             "Germany",
-            1
+            3
         )
 
         questionsList.add(que3)
