@@ -10,11 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".ResultActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"
+            ></activity>
+        <activity
             android:name=".QuizQuestionsActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <!-- 縦方向に固定 -->
+            android:screenOrientation="portrait"></activity> <!-- 縦方向に固定 -->
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
@@ -27,4 +29,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>
